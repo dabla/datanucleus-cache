@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: andy
+Build-Jdk: 1.6.0_30
+Bundle-ManifestVersion: 2
+Bundle-Name: DataNucleus Cache
+Bundle-SymbolicName: org.datanucleus.cache;singleton:=true
+Bundle-Version: 3.1.1
+Bundle-Vendor: DataNucleus
+Bundle-Localization: plugin
+Require-Bundle: org.datanucleus;bundle-version="3.0.3"
+Import-Package: cacheonix;resolution:=optional,com.opensymphony.oscach
+ e.base;resolution:=optional,com.opensymphony.oscache.base.algorithm;r
+ esolution:=optional,com.opensymphony.oscache.base.events;resolution:=
+ optional,com.opensymphony.oscache.base.persistence;resolution:=option
+ al,com.opensymphony.oscache.extra;resolution:=optional,com.opensympho
+ ny.oscache.general;resolution:=optional,com.opensymphony.oscache.plug
+ ins.clustersupport;resolution:=optional,com.opensymphony.oscache.plug
+ ins.diskpersistence;resolution:=optional,com.opensymphony.oscache.uti
+ l;resolution:=optional,com.opensymphony.oscache.web;resolution:=optio
+ nal,com.opensymphony.oscache.web.filter;resolution:=optional,com.open
+ symphony.oscache.web.tag;resolution:=optional,com.tangosol.net;resolu
+ tion:=optional,net.rubyeye.xmemcached;resolution:=optional,net.rubyey
+ e.xmemcached.utils;resolution:=optional,net.sf.ehcache;resolution:=op
+ tional,net.sf.ehcache.config;resolution:=optional,net.sf.ehcache.hibe
+ rnate;resolution:=optional,net.sf.ehcache.store;resolution:=optional,
+ net.sf.jsr107cache;resolution:=optional,net.sf.swarmcache;resolution:
+ =optional,net.spy.memcached;resolution:=optional,net.spy.memcached.co
+ mpat;resolution:=optional,net.spy.memcached.compat.log;resolution:=op
+ tional,net.spy.memcached.ops;resolution:=optional,net.spy.memcached.p
+ rotocol;resolution:=optional,net.spy.memcached.protocol.ascii;resolut
+ ion:=optional,net.spy.memcached.protocol.binary;resolution:=optional,
+ net.spy.memcached.transcoders;resolution:=optional
+
